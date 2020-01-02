@@ -17,7 +17,7 @@ import AvailtecParser from './AvailtecParser';
 class Configuration {
     constructor() {
         // Mobile, AL
-        this.center = [30.6907508, -88.1413472];
+        this.center = [30.693707, -88.042476];
 
         this.agencies = [
             {
