@@ -19,7 +19,7 @@ CONFIG = transmogrifier.Config(
     ),
     ios_config = transmogrifier.MontclairiOSConfig(
         version = '2.0.2',
-        revision = 1,
+        revision = 2,
         app_id = 'com.gotransitapp.mobile',
         app_store_id = '',
         app_store_url = 'REPLACE_ME'
