@@ -12,7 +12,7 @@ CONFIG = transmogrifier.Config(
     logo_svg = 'assets/logo.svg',
     montclair_config = transmogrifier.MontclairConfig(
         version = '1.2.2',
-        revision = 3,
+        revision = 4,
         title = 'Go Mobile',
         first_run_text = "Welcome to Mobile, AL's Real Time Bus Tracker.<br /><br />Please select one or more routes to begin!",
         configuration_js_file = 'assets/Configuration.js'
@@ -22,7 +22,7 @@ CONFIG = transmogrifier.Config(
         revision = 1,
         app_id = 'com.gotransitapp.mobile',
         app_store_id = '1493405198',
-        app_store_url = 'https://apps.apple.com/us/app/go-mobile/id1493405198'
+        app_store_url = 'https://apps.apple.com/us/app/go-mobile-al/id1493405198'
     ),
     android_config = transmogrifier.MontclairAndroidConfig(
         version = '1.0.2',
