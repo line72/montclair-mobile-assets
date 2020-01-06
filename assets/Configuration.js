@@ -22,7 +22,7 @@ class Configuration {
         this.agencies = [
             {
                 name: 'Routes',
-                parser: new AvailtecParser('https://realtimemobile.availtec.com/infopoint')
+                parser: new AvailtecParser('https://mobile.gotransitapp.com/api/no.php/InfoPoint')
             }
         ];
     }
