@@ -18,6 +18,10 @@ class Configuration {
     constructor() {
         // Mobile, AL
         this.center = [30.693707, -88.042476];
+        this.tileserver = {
+            url: 'https://mobile.gotransitapp.com/tiles/{z}/{x}/{y}.png',
+            subdomains: ''
+        };
 
         this.agencies = [
             {
